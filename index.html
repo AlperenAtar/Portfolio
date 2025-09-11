@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- JQuery CDN Integration-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/a.css">
+    <title>Mahmut Alperen Atar - Personal Portfolio</title>
+
+</head>
+
+<body>
+
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-sm  navbar-light" style="background-color: #095379;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_Navbar">
+            <ul class="navbar-nav w-100 d-flex align-items-center">
+                <!-- Sol grup -->
+                <li class="nav-item"><a class="nav-link text-white" href="#educational-info">Education</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#experience_title">Experience</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#projects-info">My Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#prof-skill">Professional Skills</a></li>
+                
+                
+
+
+                <!-- Sağ grup -->
+                <li class="nav-item ms-auto">
+                    <a class="navbar-brand d-flex align-items-center" href="https://github.com/AlperenAtar">
+                        <img src="assets/github_logo.png" alt="github_logo" style="height:40px; width:auto;" />
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="assets/MahmutAlperenAtar_SoftwareDeveloper_CV_English.pdf"
+                        target="_blank">
+                        <b>Download CV</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Carousel Section -->
+    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="rounded-circle shadow-1-strong mb-4" src="assets/profilePhoto.jpg" alt="Profile"
+                    style="width: 250px;"> <!--/static klasörü altında img kaynağı belirtilmeli-->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <h5 class="mb-3">Mahmut Alperen Atar</h5>
+                        <p>Web Developer - Cyber Security Enthusiast</p>
+                        <p class="text-muted">
+                            <i class="fas fa-quote-left pe-2"></i>
+                            A Computer Engineer who continuously develops myself in the fields of cybersecurity, network
+                            management, and software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- About Section -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="card">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card-body">
+                            <div class="h4 mt-0 title">About</div> <br>
+                            <p>Recent graduate with an MS in Computer Science, eager to leverage my experience in
+                                building responsive and scalable web applications. I have strengthened my technical
+                                competence. I focus on producing effective solutions to the problems I encounter by
+                                demonstrating an analytical mindset, a solution-oriented approach, and the ability to
+                                adapt quickly to new technologies. As an engineering candidate who is team-oriented,
+                                details-oriented, and takes active responsibility in project processes, I am steadily
+                                advancing my technology-focused career journey.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card-body">
+                            <div class="h4 mt-0 title">Basic Information</div> <br>
+                            <div class="row">
+                                <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+                                <div class="col-sm-8">24</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                                <div class="col-sm-8">alperen.atar.2001@gmail.com</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                                <div class="col-sm-8">+90 506 188 39 19</div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                                <div class="col-sm-8">Bandırma, Balıkesir, Turkey</div>
+                            </div>
+                            <div>
+
+                                <div class="row mt-3">
+                                    <div class="col-sm-4"><strong class="text-uppercase">LinkedIn:</strong></div>
+                                    <div class="col-sm-8"><a
+                                            href="https://www.linkedin.com/in/mahmut-alperen-atar-139202223/"
+                                            type="_blank">Mahmut
+                                            Alperen Atar</a></div>
+                                </div>
+
+
+                                <div class="row mt-3">
+                                    <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                                    <div class="col-sm-8">Turkish, English</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Education Section -->
+        <div class="section" id="skill">
+            <div class="container my-2">
+                <div class="h4 text-center mb-4 title" id="educational-info">Education</div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="h5">Computer Engineering - Bachelor Degree</div>
+                        <br>
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="font-size: large;"><b>Selcuk University</b></span>
+                            <span>[10/02/2022 – 05/09/2025]</span>
+                        </div>
+                        <br>
+                        <p><b>City:</b> Konya | <b>Country:</b> Turkey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Experience Section -->
+        <div class="section" id="experience">
+            <div class="container my-2">
+                <div class="h4 text-center mb-4 title" id="experience_title">Experience</div>
+                <div class="card">
+                    <div class="card-body">
+                        <b>Meram Elektrik ve Dağıtım A.Ş.</b> </br>
+                        <b>City:</b> Konya | <b>Country:</b> Turkey <br><br>
+
+                        <div style="display: flex; justify-content: space-between;">
+                            <span><b>Cyber Security Analyst - Long Term Internship</b></span>
+                            <span>[10/02/2025 – 23/05/2025]</span>
+                        </div>
+                        <br>
+                        <ul>
+                            <li>Analyzed corporate network and information security infrastructures.</li>
+                            <li>Participated in the installation and configuration of IDS/IPS (Intrusion Detection and
+                                Prevention Systems).
+                            </li>
+                            <li>Contributed to the implementation of firewall policies.</li>
+                            <li>Conducted threat intelligence research and analyzed current cyber threats.</li>
+                            <li>Performed vulnerability assessments through log analysis and simulation tests.</li>
+                            <li>Took part in internal penetration tests involving port scanning, service
+                                identification, and vulnerability analysis.
+                            </li>
+                            <li> Contributed to social engineering awareness training and testing.</li>
+                            <li>Reported identified security vulnerabilities and provided solution
+                                recommendations.
+                            </li>
+                            <li>Gained both theoretical and practical competencies in the implementation of
+                                information security policies.
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <b>Bandırma 17 Eylül University</b> </br>
+                        <b>City:</b> Balıkesir | <b>Country:</b> Turkey <br><br>
+
+                        <div style="display: flex; justify-content: space-between;">
+                            <span><b>Network Analyst - Internship</b></span>
+                            <span>[01/07/2024 – 29/07/2024]</span>
+                        </div>
+                        <br>
+                        <ul>
+                            <li>Worked on the management and security of corporate network infrastructure.</li>
+                            <li>Performed routing, switching, IP addressing, and VLAN configurations.</li>
+                            <li>Configured NAT (Network Address Translation) and ACL (Access Control Lists).</li>
+                            <li>Created various network topologies and conducted hands-on exercises.</li>
+                            <li>Gained experience in real-world network management, security implementations,
+                                and troubleshooting processes.
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <b>Yartu Bulut Bilişim Hizmetleri San. ve Tic. A.Ş. </b> </br>
+                        <b>City:</b> Konya | <b>Country:</b> Turkey <br><br>
+
+                        <div style="display: flex; justify-content: space-between;">
+                            <span><b>Backend Web Developer - Internship</b></span>
+                            <span>[17/07/2023 – 15/08/2023]</span>
+                        </div>
+                        <br>
+                        <ul>
+                            <li>Developed back-end components of web-based applications using Python and
+                                Django.
+                            </li>
+                            <li>Contributed to software development and bug-fixing processes in existing projects.</li>
+                            <li>Performed user interface adjustments in front-end tasks using HTML, CSS, and
+                                JavaScript technologies
+                            </li>
+                            <li>Actively participated in the software development lifecycle with a full-stack
+                                development approach.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <!-- My Projects Section -->
+        <div class="section" id="skill">
+            <div class="container my-2" id="projects">
+                <div class="h4 text-center mb-4 title" id="projects-info">My Projects</div>
+                <div class="card">
+                    <div class="card-body">
+                        <button id="toggle_button_1" class="h4">
+                            <details>
+                                <summary>IM-AGES</summary>
+                            </details>
+                        </button>
+                        <div id="project_1">
+                            <br>
+                            <h5>Desktop Image Editing Application built with C# .NET Forms</h5>
+                            <br>
+                            <p><strong>Technologies:</strong> C#, .Net Forms, Visual Studio</p>
+                            <br>
+                            <p>
+                                <strong>Details:</strong> IM-AGES is a desktop application developed with .NET Forms
+                                that
+                                allows
+                                users to perform essential Photoshop-like editing tasks with a simple and intuitive
+                                interface.
+                                The project was designed with a focus on usability and performance, showcasing both
+                                image
+                                processing techniques and desktop software development skills.
+
+                            <figure>
+                                <figcaption><strong>Key Features:</strong></figcaption>
+                                <br>
+                                <ul>
+                                    <li>Brightness, contrast, color, and saturation adjustments</li>
+                                    <li>Basic filters and effects for image manipulation</li>
+                                    <li>Cropping, rotating, and resizing tools</li>
+                                    <li>Lightweight, user-friendly interface for quick editing</li>
+                                    <li>Implementation of image processing algorithms in C# and .NET Forms</li>
+                                </ul>
+                            </figure>
+                            <br>
+                            IM-AGES not only delivers a practical photo editing experience but also highlights technical
+                            expertise in algorithms, libraries, and UI design within the .NET ecosystem.
+                            </p>
+                        </div>
+                        <hr>
+                        <button id="toggle_button_2" class="h4">
+                            <details>
+                                <summary>Dice&Roll</summary>
+                            </details>
+                        </button>
+                        <div id="project_2">
+                            <br>
+                            <h5>Multiplayer Dice Rolling Game built with Flutter</h5>
+                            <br>
+                            <p><strong>Technologies:</strong> Dart, Flutter, Android Studio</p>
+                            <br>
+                            <p>
+                                <strong>Details:</strong> Roll&Dice is a cross-platform mobile application developed
+                                with
+                                Flutter, designed to bring a fun and customizable dice-rolling experience to groups of
+                                players.
+                                The game supports multiple players in real time, offering a smooth and interactive
+                                gameplay
+                                environment. With language support and theme customization, it provides a personalized
+                                experience for users across different preferences.
+
+                            <figure>
+                                <figcaption><strong>Key Features:</strong></figcaption>
+                                <br>
+                                <ul>
+                                    <li>Multiplayer support for group dice rolling sessions</li>
+                                    <li>Multiple dice types (d4, d6, d8, d10, d12, d20, d100)</li>
+                                    <li>Player customization with names and colors</li>
+                                    <li>Language support for accessibility across regions</li>
+                                    <li>Theme options for a personalized look and feel</li>
+                                    <li>Clean UI and responsive cross-platform design powered by Flutter</li>
+                                </ul>
+                            </figure>
+                            <br>
+                            Roll&Dice combines simplicity and entertainment, while also demonstrating strong expertise
+                            in
+                            Flutter development, UI/UX design, and internationalization.
+                            </p>
+                        </div>
+                        <hr>
+                        <button id="toggle_button_3" class="h4">
+                            <details>
+                                <summary>Winkle</summary>
+                            </details>
+                        </button>
+                        <div id="project_3">
+                            <br>
+                            <h5>Productivity & Habit Tracking App built with Flutter</h5>
+                            <br>
+                            <p><strong>Technologies:</strong> Dart, Flutter, Android Studio, Firebase, MySQL</p>
+                            <br>
+                            <p>
+                                <strong>Details:</strong> Winkle is a multifunctional productivity application developed
+                                with
+                                Flutter, designed to help users organize their daily lives efficiently. The app combines
+                                note-taking, to-do lists, habit tracking, and step counting into one seamless
+                                experience.
+                                With
+                                Firebase integration, user data is securely stored and synchronized across devices,
+                                ensuring
+                                continuity no matter where the user signs in. Authentication is supported via both email
+                                and
+                                Google accounts, making access simple and reliable.
+
+                            <figure>
+                                <figcaption><strong>Key Features:</strong></figcaption>
+                                <br>
+                                <ul>
+                                    <li>Note-taking and to-do list management for daily productivity</li>
+                                    <li>Habit tracking to build and maintain positive routines</li>
+                                    <li>Integrated step counter for health and activity monitoring</li>
+                                    <li>Firebase backend for secure cloud data storage</li>
+                                    <li>Cross-device synchronization of user data</li>
+                                    <li>Authentication with email or Google accounts</li>
+                                    <li>Multi-platform support powered by Flutter with a responsive UI</li>
+                                </ul>
+                            </figure>
+                            <br>
+                            Winkle provides a complete ecosystem for personal productivity and lifestyle management,
+                            while
+                            showcasing advanced Flutter development skills, Firebase integration, and modern
+                            cross-platform
+                            design.
+                            </p>
+                        </div>
+                        <hr>
+                        <button id="toggle_button_4" class="h4">
+                            <details>
+                                <summary>ThoughtWave</summary>
+                            </details>
+                        </button>
+                        <div id="project_4">
+                            <br>
+                            <h5>Advanced Blogging Platform built with Django (Python)</h5>
+                            <br>
+                            <p><strong>Technologies:</strong> Python, Django, HTML, CSS, JS, BootStrap, Firebase</p>
+                            <br>
+                            <p>
+                                <strong>Details:</strong> ThoughtWave is a modern blogging platform developed with
+                                Django,
+                                designed to provide an intuitive and feature-rich environment for content creators. The
+                                application supports advanced blog management, offering tools for publishing, editing,
+                                categorizing, and engaging with posts seamlessly. Built on the robustness of Django, it
+                                ensures
+                                scalability, security, and smooth performance.
+
+                            <figure>
+                                <figcaption><strong>Key Features:</strong></figcaption>
+                                <br>
+                                <ul>
+                                    <li>User-friendly interface for creating and managing blog posts</li>
+                                    <li>Categories, tags, and advanced search for structured content discovery</li>
+                                    <li>User authentication and profile management</li>
+                                    <li>Comment system to foster community engagement</li>
+                                    <li>Responsive, mobile-friendly design for accessibility across devices</li>
+                                    <li>Scalable architecture leveraging Django’s ORM and security features</li>
+                                </ul>
+                            </figure>
+                            <br>
+                            ThoughtWave delivers both a rich blogging experience for users and a demonstration of
+                            advanced
+                            Python/Django development skills, including backend logic, database design, and dynamic web
+                            application architecture.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Professional Skills Section -->
+        <div class="section" id="skill">
+            <div class="container my-2">
+                <div class="h4 text-center mb-4 title" id="prof-skill">Professional Skills</div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <b>Programming Languages:</b> Python, C#, SQL, GoLang, Bash<br><br>
+                        <b>Tools:</b> NumPy, Pandas, Matplotlib, MS Excel, OpenCV, Kali Linux<br><br>
+                        <b>Database Management Systems:</b> MySQL, PostgreSQL, MongoDB, SQLite, FireBase<br><br>
+                        <b>Internet Technologies:</b> Flask, HTML5, JS, React.JS, CSS, Django <br><br>
+                        <b>Networking Technologies:</b> Network Fundamentals, Ethical Hacking
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <br>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+
+
+            </script>
+
+        <script>
+            $(document).ready(function () {
+                $("#project_1").hide();
+                $("#toggle_button_1").on("click", function () {
+                    $("#project_1").toggle("slow");
+                });
+                $("#project_2").hide();
+                $("#toggle_button_2").on("click", function () {
+                    $("#project_2").toggle("slow");
+                });
+                $("#project_3").hide();
+                $("#toggle_button_3").on("click", function () {
+                    $("#project_3").toggle("slow");
+                });
+                $("#project_4").hide();
+                $("#toggle_button_4").on("click", function () {
+                    $("#project_4").toggle("slow");
+                });
+            });
+        </script>
+</body>
+
+</html>
